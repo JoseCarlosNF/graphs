@@ -12,7 +12,7 @@ class Node:
             next: Apontamento para o próximo nó da lista ligada.
     """
 
-    data: str
+    data: Any
     next: Any = None
 
     def __repr__(self) -> str:
